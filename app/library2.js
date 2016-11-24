@@ -11,7 +11,7 @@ module.exports={
       
       minNumber = array[loop];
       
-    }else if (array[loop] > maxNumber){
+    } else if (array[loop] > maxNumber){
       
       maxNumber = array[loop]; 
       
@@ -22,7 +22,7 @@ module.exports={
     
     minMax.push(minNumber);
     
-  }else{
+  } else {
     
     minMax.push(minNumber);
     minMax.push(maxNumber);

@@ -1,6 +1,6 @@
 module.exports={
- aritGeo:function(myArray){
-    if(myArray.length === 0){
+ aritGeo : function(myArray) {
+    if(myArray.length === 0) {
       return 0;
     }
 
@@ -18,13 +18,11 @@ module.exports={
     }
     if(AP == myArray.length - 1){
       return "Arithmetic";
-    }
-    else if(GP == myArray.length - 1){
+    } else if(GP == myArray.length - 1) {
       return "Geometric";
-    }
-    else{
+    } else {
       return -1;
-    }
+    };
 
   }
 }
